@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Rios Property Solutions</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/css/img/logo.png" alt="Rios Property Solutions logo">
+    </a>
+    <nav class="nav">
+      <a href="index.html" data-page="index.html">Home</a>
+      <a href="services.html" data-page="services.html">Services</a>
+      <a href="gallery.html" data-page="gallery.html">Gallery</a>
+      <a href="contact.html" data-page="contact.html">Contact</a>
+      <div class="cta">
+        <a class="btn btn-ghost" href="contact.html">Get a Quote</a>
+        <a class="btn btn-primary" href="tel:+3128377969">Call Now</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container split">
+    <div class="card">
+      <h1 class="h2">Request a Quote</h1>
+      <p class="lead">Tell us what you need and we’ll follow up.</p>
+
+      <!-- Placeholder form: change action when client provides email/service -->
+  <form action="https://formspree.io/f/xvzzoebv" method="POST">
+  <input type="text" name="name" placeholder="Full name" required />
+  <input type="tel" name="phone" placeholder="Phone number" required />
+  <input type="email" name="email" placeholder="Email" required />
+
+  <select name="service" required>
+    <option value="" disabled selected>Service needed</option>
+    <option>Asbestos / Lead</option>
+    <option>Painting</option>
+    <option>Drywall</option>
+    <option>Flooring</option>
+    <option>Windows / Doors</option>
+    <option>General Repairs</option>
+    <option>Other</option>
+  </select>
+
+  <input type="text" name="location" placeholder="City / Area" />
+  <textarea name="message" placeholder="Describe the project (timeline, rooms, concerns, etc.)"></textarea>
+
+  <input type="hidden" name="_subject" value="New Quote Request — Rios Property Solutions" />
+  <input type="hidden" name="_redirect" value="thank-you.html" />
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+  <button class="btn btn-primary" type="submit">Send Request</button>
+</form>
+
+
+    </div>
+
+    <aside class="card">
+      <h2 class="h2">Contact</h2>
+      <p class="lead">Use the info below (replace placeholders).</p>
+
+      <div class="hr"></div>
+      <p><strong>Phone:</strong> <em>(312)837-7969</em></p>
+      <p><strong>Email:</strong> <em>riospropertysolutions00@gmail.com</em></p>
+      <p><strong>Service Area:</strong> <em>Illinois</em></p>
+      <p><strong>Hours:</strong> <em>24hrs</em></p>
+
+      <div class="note" style="margin-top:14px;">
+        Add trust items here later: Licensed/Insured, Certifications, Years in business, etc.
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container row">
+    <div>
+      <strong>Rios Property Solutions</strong><br/>
+      <span class="small">Service Area: <em>Illinois</em> • Licensed &amp; Certified • 22+ Years Experience</span>
+    </div>
+    <div class="small">Phone: <em>(312) 837-7969</em> • Email: <em>riospropertysolutions00@gmail.com</em></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
