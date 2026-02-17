@@ -10,21 +10,32 @@
 
 <header class="header">
   <div class="container header-inner">
-    <a class="brand" href="index.html">
+    <a class="brand" href="index.html" aria-label="Rios Property Solutions Home">
       <img src="assets/css/img/logo.png" alt="Rios Property Solutions logo">
     </a>
+
+    <div class="menu-wrap">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Primary" hidden>
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="index.html#services" data-page="services">Services</a>
+        <a href="contact.html" data-page="contact.html">Contact</a>
+      </nav>
+    </div>
   </div>
 </header>
 
 <main class="section">
-  <div class="container" style="max-width:640px;">
-    <div class="card" style="text-align:center;">
+  <div class="container narrow">
+    <div class="card center">
       <h1 class="h2">Thanks!</h1>
       <p class="lead">Your request was submitted successfully.</p>
-
-      <div style="margin-top:24px;">
-        <a class="btn btn-primary" href="index.html">Go back to Home</a>
-      </div>
+      <a class="btn btn-primary" href="index.html">Back to Home</a>
     </div>
   </div>
 </main>
@@ -33,10 +44,11 @@
   <div class="container row">
     <div>
       <strong>Rios Property Solutions</strong><br/>
-      <span class="small">Service Area: <em>Illinois</em> • Licensed &amp; Certified • 22+ Years Experience</span>
+      <span class="small">Service Area: <em>Illinois</em> | Licensed and Certified | 22+ Years Experience</span>
     </div>
   </div>
 </footer>
 
+<script src="assets/css/js/main.js"></script>
 </body>
 </html>
